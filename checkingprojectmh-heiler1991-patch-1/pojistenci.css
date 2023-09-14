@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+html {
+  background: rgb(194, 190, 190);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  max-width: 960px;
+  min-height: 100vh;
+  background-image: url(obrazky/iStock-1282624945.png);
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #dfaa7e;
+  color: #fff;
+  padding: 10px 0;
+  text-align: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+nav ul a {
+  font-size: 1.2em;
+  color: #fff;
+  text-decoration: none;
+  margin: 0 20px;
+  text-transform: uppercase;
+  display: inline-block;
+  transition: border-bottom 0.3s ease;
+}
+
+nav ul a:hover,
+.active a {
+  border-bottom: 2px solid white;
+}
+
+input[type="text"],
+input[type="number"] {
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+button {
+  background-color: #dfaa7e;
+  padding: 10px 30px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: rgb(255, 212, 156);
+}
+
+main {
+  text-align: center;
+  margin-top: 80px;
+  padding: 12px 12px 50px 12px;
+}
+
+footer {
+  text-align: center;
+  width: 100%;
+  height: 50px;
+  bottom: 0;
+  left: 0;
+}
+
+footer p {
+  margin: 0;
+}
+
+h1 {
+  color: #000000;
+  text-shadow: -1px -1px 1px rgba(255, 255, 255, 0.1),
+    1px 1px 1px rgba(0, 0, 0, 0.5);
+  text-align: center;
+}
+
+p {
+  text-align: center;
+}
+
+.table {
+  border: 3px;
+  border-color: #000000;
+  text-align: center;
+}
